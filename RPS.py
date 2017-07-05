@@ -25,7 +25,7 @@ def decide_winner(user_choice, computer_choice):
   elif user_choice_index == 1 and computer_choice_index == 0 :
     print player_win
   elif user_choice_index == 2 and computer_choice_index == 1 :
- 		print player_win
+ 	print player_win
   elif user_choice_index >2 :
     print "Not valid!"
     return
